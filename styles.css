@@ -98,10 +98,33 @@ body
     object-fit: contain;
 }
 
-.image-list img
+.image-list
 {
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 30px;
 }
 
+.image-list ul
+{
+    display: flex;
+    gap: 40px;
+    --image-width: 200px;
+    --image-height: 200px;
+}
+
+.image-list img
+{
+    width: var(--image-width);
+    height: var(--image-height);
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+.image-list ul p
+{
+    width: var(--image-width);
+}
