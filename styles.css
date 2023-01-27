@@ -71,7 +71,8 @@ body
     color: var(--custom-white);
     height: 400px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 300px;
 }
 
 
@@ -86,4 +87,12 @@ body
 .main-content strong
 {
     font-size: 48px;
+}
+
+
+.hero-text img
+{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
 }
