@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 
 * 
@@ -6,37 +6,84 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
-
 
 :root
 {
-    font-family: Roboto, sans-serif;
-    font-weight: bold;
+    --custom-white: #F9FAF8;
+    --custom-dark: #1F2937;
+    --custom-blue: #3882F6;
 }
+
+.signup-button
+{
+    display: inline-block;
+    color: var(--custom-white);
+    padding: 4px 25px;
+    background-color: var(--custom-blue);
+    border-radius: 8px;
+}
+
+
+
 
 body
 {
     display: flex;
     flex-direction: column;
-    min-height: 1000px;
+    font-family: "Roboto", sans-serif;
+
 }
 
 .header
 {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: var(--custom-dark);
+    color: var(--custom-white);
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 60px;
 
+
+
+
 }
 
 .header ul
 {
-    color: #F9FAF8;
     display: flex;
     gap: 50px;
     padding: 50px;
+}
+
+.main-content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-content .hero-text
+{
+    display: flex;
+    background-color: var(--custom-dark);
+    color: var(--custom-white);
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.main-content .hero-text ul
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+}
+
+.main-content strong
+{
+    font-size: 48px;
 }
