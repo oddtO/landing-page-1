@@ -10,4 +10,4 @@ Hero tiger image by pixabay
 4th tiger image by Pfüderi from Pixabay
 
 
-looks bad on mobiles
+looks bad on mobile
