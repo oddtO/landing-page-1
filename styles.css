@@ -37,7 +37,8 @@ body
     font-family: "Roboto", sans-serif;
 }
 
-.header
+.header,
+.footer
 {
     background-color: var(--custom-dark);
     color: var(--custom-white);
@@ -46,9 +47,11 @@ body
     align-items: center;
     height: 60px;
 
+}
 
-
-
+.footer
+{
+    height: 100px !important;
 }
 
 .header ul
