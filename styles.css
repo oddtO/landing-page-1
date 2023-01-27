@@ -17,6 +17,11 @@
     --custom-gray: #E5E7EB;
 }
 
+a:visited
+{
+    color: var(--custom-white);
+}
+
 .signup-button
 {
     display: inline-block;
