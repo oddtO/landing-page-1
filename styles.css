@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
 
 
 * 
@@ -14,6 +14,7 @@
     --custom-white: #F9FAF8;
     --custom-dark: #1F2937;
     --custom-blue: #3882F6;
+    --custom-gray: #E5E7EB;
 }
 
 .signup-button
@@ -34,7 +35,6 @@ body
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
-
 }
 
 .header
@@ -63,6 +63,15 @@ body
     display: flex;
     flex-direction: column;
 }
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 
 .main-content .hero-text
@@ -105,6 +114,7 @@ body
     gap: 30px;
     align-items: center;
     padding: 30px;
+    height: 400px;
 }
 
 .image-list ul
@@ -132,4 +142,37 @@ body
 .image-list ul p
 {
     width: var(--image-width);
+}
+
+
+.quote
+{
+    background-color: var(--custom-gray);
+
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+
+}
+
+.quote figure
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote figcaption
+{
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.quote blockquote
+{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
 }
