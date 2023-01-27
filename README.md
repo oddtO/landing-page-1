@@ -8,3 +8,6 @@ Hero tiger image by pixabay
 3rd tiger image by Gerhard from Pixabay
 
 4th tiger image by Pfüderi from Pixabay
+
+
+looks bad on mobiles
