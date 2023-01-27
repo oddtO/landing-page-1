@@ -23,6 +23,7 @@
     padding: 4px 25px;
     background-color: var(--custom-blue);
     border-radius: 8px;
+    font-weight: 900;
 }
 
 
@@ -69,10 +70,10 @@ body
     display: flex;
     background-color: var(--custom-dark);
     color: var(--custom-white);
-    height: 400px;
+    height: 500px;
     align-items: center;
     justify-content: center;
-    gap: 300px;
+    gap: 200px;
 }
 
 
@@ -92,7 +93,15 @@ body
 
 .hero-text img
 {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     object-fit: contain;
 }
+
+.image-list img
+{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
